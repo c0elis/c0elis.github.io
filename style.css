@@ -7,19 +7,19 @@
 body {
   font-family: monospace;
   color: rgb(240, 170, 70);
-  background-color: rgb(25, 25, 25);
+  background-color: rgb(20, 20, 20);
 }
 
 .container {
   border-top: 1.5px solid rgba(240, 170, 70, 0.8);
-  width: 1200px;
-  margin: 0 40px;
+  width: auto;
+  padding: 0 40px;
 }
 
 .main-header {
   background-color: rgb(15, 15, 15);
   padding: 20px 40px;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 h1,
@@ -36,13 +36,16 @@ h1 {
 }
 
 h2 {
-  font-size: 46px;
+  font-size: 50px;
   margin-bottom: 20px;
+  padding-top: 60px;
+  padding-left: 10px;
 }
 
 h3 {
   font-size: 36px;
   margin: 0 16px;
+  padding-top: 70px;
 }
 
 h4 {
@@ -52,7 +55,20 @@ h4 {
   padding-bottom: 28px;
 }
 
+.intro-section {
+  position: relative;
+}
+
+.intro-img {
+  position: absolute;
+  right: 0px;
+  top: 110px;
+  width: 1300px;
+  border-bottom: 1px solid rgba(240, 170, 70, 0.8);
+}
+
 .notes {
+  margin-top: 8px;
   padding: 10px 10px;
   display: flex;
   flex-wrap: wrap;
